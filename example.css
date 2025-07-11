@@ -31,12 +31,20 @@ img {
     justify-content: center;
     margin: 0 auto;
 }
-img:hover {
-    width: 40%;
-}
 .cover {
     display: flex;
     justify-content: center;
+    list-style: none;
+}
+.cover li {
+    border:1px solid black;
+    margin-bottom: 0px;
+}
+.cover figcaption {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-align: center;
 }
 body {
     background-color: #1B2838;
