@@ -1,0 +1,175 @@
+/* 기본 설정 */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+      
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* 헤더 */
+header {
+  /* background: url('lostark-bg.jpg') center/cover no-repeat; */
+  background-color: #333;
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 200px;
+  padding: 20px 10px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #ffcc00;
+}
+.gotoback{
+  color:#f5f5f5;
+  font-size : 1.0rem;
+  align-items: end;
+  text-align: right;
+  font-style: italic;
+  text-decoration: underline;
+  margin-right: 30px;
+  display:block;
+
+}
+.navbar{
+  position: fixed;
+  top : 0;
+  left: 0;
+  width:100%;
+}
+.navbar ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display: flex;
+  justify-content: center;
+}
+.navbar a{
+  display:block;
+  padding:15px 10px;
+  text-decoration: none;
+  color:wheat;
+  font-weight: bold;
+}
+.navbar a:hover{
+  background-color: #555;
+  color:#ffce00;
+}
+
+
+
+/* 본문 섹션 */
+main {
+  margin-top:200px;
+  padding: 30px 20px;
+  background-image:url('https://i.namu.wiki/i/vNQW1biNNsq6NbMIHv9Y3OmFvTxmUrWuRS6cmbblOrXZEFNGIp11NTPDZaVPL_fWu0-Is-qz3C6GEgse19HI-A.webp');
+  background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+}
+.section{
+  
+  margin-top: -500px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #ff9900;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 5px;
+}
+
+/* 주요 특징 */
+.features ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.features li {
+  margin-bottom: 10px;
+  background-color: #222;
+  padding: 10px;
+  border-left: 5px solid #ff9900;
+}
+
+.news ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.news li {
+  margin-bottom: 10px;
+  background-color: #222;
+  padding: 10px;
+  border-left: 5px solid #ff9900;
+}
+.news li a{
+  color:#f5f5f5;
+}
+.news li a:hover{
+  color:#ffcc00;
+  text-shadow: #888;
+}
+
+/* 갤러리 */
+.gallery .images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* 영상 */
+.video iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 340px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+/* 후기 */
+blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #ccc;
+  border-left: 5px solid #888;
+  padding-left: 15px;
+}
+
+/* 푸터 */
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #888;
+}
